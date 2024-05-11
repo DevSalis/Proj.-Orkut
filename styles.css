@@ -7,6 +7,7 @@
   
   body {
     font-family: Arial, sans-serif;
+    background-color: rgb(191, 230, 233);
   }
   
   .container {
@@ -19,6 +20,7 @@
     background-color: #4267b2;
     color: #fff;
     padding: 10px 0;
+    margin-top: 5%;
   }
   
   .navbar .container {
@@ -26,17 +28,35 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  .logo {
+    background-color: rgb(239, 248, 248);
+    position: absolute;
+    color: rgb(226, 43, 211);
+    margin: 0%;
+    padding: 5px;
+  }
   
   .nav-links {
     list-style-type: none;
+    margin-left: 10%;
+    display: flex;
+    gap: 20px;
   }
-  
-  .nav-links li {
-    display: inline;
-    margin-right: 20px;
+
+  .nav-links-2 {
+    list-style-type: none;
+    margin-left: 10%;
+    display: flex;
+    gap: 20px;
   }
   
   .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .nav-links-2 li a {
     color: #fff;
     text-decoration: none;
   }
